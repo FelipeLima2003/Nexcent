@@ -1,1 +1,53 @@
 @import url("./global.css");
+
+header{
+    display: flex;
+    padding: 30px 105px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-silver);
+}
+
+.container-nav-header ul{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.container-nav-header ul li{
+    list-style: none;
+}
+
+.container-nav-header ul li a {
+    text-decoration: none;
+    font-family: var(--font-family-primary);
+    font-size: var(font-size-body2);
+    font-weight: var(font-size-body2);
+    color: var(--color-black);
+    line-height: var(--line-height-body2);
+}
+
+.container-nav-btn{
+    display: flex;
+    gap: 14px;
+}
+
+.btn-nav-secundario,.btn-nav-principal{
+    padding: 10px 20px;
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-body3);
+    font-weight: var( --font-weight-body3-medium);
+    line-height: var(--line-height-body2);
+    border-radius: 6px;
+    text-decoration: none;
+    
+}
+
+.btn-nav-principal{
+    background-color: var(--color-primary);
+    color: var(--color-white);
+}
+
+.btn-nav-secundario{
+    color:var(--color-primary);
+}
