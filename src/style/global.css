@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    /* Color */
+
+    /* Color - Neutral */
+    --color-black: #263238;
+    --color-D_grey: #717171;
+    --color-L_grey: #89939E;
+    --color-grey-blue: #ABBED1;
+    --color-silver: #F5f7FA;
+    --color-white: #FFFFFF;
+
+    /* Color primary e secondary e info*/
+    --color-primary: #28CB8B;
+    --color-secondary: #263238;
+    --color-info: #2194f3;
+
+    /* Color Shade */
+
+    --color-shade1: #43A046;
+    --color-shade2: #388E3B;
+    --color-shade3: #237D31;
+    --color-shade4: #1B5E1F;
+    --color-shade5: #103E13;
+
+
+    /* ===== Color Tint ===== */
+    --color-tint1: #66BB69;
+    --color-tint2: #81C784;
+    --color-tint3: #A5D6A7;
+    --color-tint4: #C8E6C9;
+    --color-tint5: #E8F5E9;
+
+    /* ===== Action Colors ===== */
+    --color-warning: #FBC02D;
+    --color-error: #E53835;
+    --color-success: #2E7D31;
+
+    /* TIpografia */
+
+
+    /* ===== Font Family ===== */
+    --font-family-primary: 'Inter', sans-serif;
+
+    /* ===== Font Size ===== */
+    --font-size-h1: 64px;
+    --font-size-h2: 36px;
+    --font-size-h3: 28px;
+    --font-size-h4: 20px;
+
+    --font-size-body1: 18px;
+    --font-size-body2: 16px;
+    --font-size-body3: 14px;
+    --font-size-body4: 12px;
+
+    --font-size-button: 16px;
+    --font-size-caption: 14px;
+
+    /* ===== Line Height ===== */
+    --line-height-h1: 76px;
+    --line-height-h2: 44px;
+    --line-height-h3: 36px;
+    --line-height-h4: 28px;
+
+    --line-height-body1: 28px;
+    --line-height-body2: 24px;
+    --line-height-body3: 20px;
+    --line-height-body4: 16px;
+
+    /* ===== Font Weight ===== */
+    --font-weight-h1: 600;
+    --font-weight-h2: 600;
+    --font-weight-h3: 600;
+    --font-weight-h4: 600;
+
+    --font-weight-body1: 400;
+    --font-weight-body2: 400;
+    --font-weight-body3: 400;
+    --font-weight-body4: 400;
+
+    --font-weight-button: 700;
+    --font-weight-caption: 400;
+
+    /* ===== Medium ===== */
+    --font-weight-body1-medium: 500;
+    --font-weight-body2-medium: 500;
+    --font-weight-body3-medium: 500;
+    --font-weight-body4-medium: 500;
+
+}
